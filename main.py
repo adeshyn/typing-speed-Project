@@ -41,6 +41,7 @@ def start_timer():
 
 
     else:
+
         top_inputtxt.insert(END, typing_words)
         create_timer(20)
         word_count_label.config(text=f"Word Count: {nunu}")
